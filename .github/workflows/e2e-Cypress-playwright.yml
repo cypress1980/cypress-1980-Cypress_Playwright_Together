@@ -35,4 +35,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6 
         with:
-         command: npm run cy-testcase-headless
+         command: npm start

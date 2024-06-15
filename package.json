@@ -1,0 +1,22 @@
+{
+  "name": "cypress_playwright_insinglerepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy-testcase-headless": "npx cypress run",
+    "pw-testcase-headless": "npx playwright test",
+    "cy-cypress-testcase-ui": "npx cypress open",
+    "pw-testcase-ui": "npx playwright test --ui"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2",
+    "cypress": "^13.11.0"
+  },
+  "dependencies": {
+    "playwright": "^1.44.1"
+  }
+}

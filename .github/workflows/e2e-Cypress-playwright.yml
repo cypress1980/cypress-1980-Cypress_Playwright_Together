@@ -38,3 +38,4 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run cy-testcase-headless
+          browser: chrome
